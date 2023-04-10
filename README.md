@@ -14,6 +14,7 @@ Check out a demo of what this might look like below:
 * Upon clicking an dollar amount, a question is displayed
 * The user can submit an answer
   * If they are correct, their score is updated
+* Make a square become gray and unclickable after being chosen.
 
 ## Overview
 
