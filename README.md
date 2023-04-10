@@ -87,5 +87,5 @@ Make a square become gray and unclickable after being chosen.
 
 * Make it so the user cannot click on another question until a guess is made for their currently clicked question.  
 
-* Instead getting a random question everytime a button is pressed, populate the game with the questions from a single past Jeopardy game. To do this, randomly choose a valid 'show number' (see `jeopardy.json` data) and use all the questions with that show number. As part of this, display a category (found in the data) over each column of $ amounts.
+* Instead of getting a random question everytime a button is pressed, populate the game with the questions from a single past Jeopardy game. To do this, randomly choose a valid 'show number' (see `jeopardy.json` data) and use all the questions with that show number. As part of this, display a category (found in the data) over each column of $ amounts.
 
