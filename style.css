@@ -1,0 +1,87 @@
+body {
+    background-image: url(/Image\ 4-10-23\ at\ 2.28\ PM.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 115%;
+    background-position: center;
+}
+
+/* TITLE -> SCORE-COUNTER */
+h1,  #score, label {
+    margin: 1%;
+    padding: 1%;
+   color:  #f1b963;
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-shadow: 2px 2px black;
+   
+}
+
+/* BOARD GAME TABLE  */
+
+.parent {
+    /* ↓ ↓ GRID ↓ ↓  */
+    display: grid;
+    grid-template-columns:  repeat(5, 1fr);     
+    grid-template-rows:  repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    /* ↑ ↑ GRID ↑ ↑  */
+
+    border: 5px black solid;
+    border-radius: 25px;
+    background-color: black;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px black;
+    font-size: 45px;
+    }
+
+#grid100, #grid200, #grid300, #grid400, #grid500 {
+    justify-content: center;
+    border-radius: 5px;
+    background-color: blue;
+    text-decoration-color: #f1b963;
+    text-align: center;
+    color: #f1b963;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+/* QUESTION -> INPUT BOX -> SUBMIT */
+form {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+#question-box {
+    color: black;
+   font-size: 45px;
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   display: flex; justify-content: center;
+   margin-top: 5px;
+}
+
+#submit-button {
+    color: #f1b963;
+    border-radius: 10px;
+    text-shadow: 1px 1px black;
+    background-color: #f6eedf;
+    margin-right: 105px;
+    
+}
+
+
+#text-input{
+    
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f6eedf;
+}
